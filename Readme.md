@@ -1,4 +1,4 @@
-# SMS - SEC-MY_SITE
+# SMS - SecMySite
 ## IEDC HACKATHON VOID FRAME 2024
 
 ![Screenshot 2024-10-16 at 18-44-54 Online Font Style Generator   Text Effects](https://github.com/user-attachments/assets/be0ba55d-73d3-4c52-b65f-ab2cadfe0c9b)
