@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Header Scanner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="center-container">
+        <h1>Scan Domain for Security Headers</h1>
+        <form action="/scan" method="POST">
+            <input type="text" name="domain" placeholder="Enter domain (e.g. https://example.com)" required>
+            <button type="submit">Scan</button>
+        </form>
+        {% if headers %}
+        <div class="results">
+            <h2>Scan Results</h2>
+            <p><strong>CSP Header:</strong> {{ headers.csp }}</p>
+            <p><strong>CSRF Token:</strong> {{ headers.csrf }}</p>
+            <p><strong>CORS Protection:</strong> {{ headers.cors }}</p>
+            <p><strong>Host Header Protection:</strong> {{ headers.host }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
