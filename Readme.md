@@ -6,6 +6,10 @@
 
 **SEC-MY_SITE** a.k.a **SMS** is a simple Flask-based web application that allows users to scan a domain for key security headers such as CSP (Content-Security-Policy), CSRF, CORS, and Host header protection.
 
+## Why and When to Use SecMySite
+- **Why Use**: It helps evaluate a web application's security posture, mitigates potential attacks, and ensures compliance with security standards.
+- **When to Use**: Ideal during development, before deployment, and for periodic security audits to maintain security standards.
+
 ## Features
 - Accepts domain input from the user.
 - Scans the domain for the following headers:
