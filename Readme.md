@@ -6,7 +6,7 @@
 
 **SEC-MY_SITE** a.k.a **SMS** is a simple Flask-based web application that allows users to scan a domain for key security headers such as CSP (Content-Security-Policy), CSRF, CORS, and Host header protection.
 
-## Features OF SMS
+## Features
 - Accepts domain input from the user.
 - Scans the domain for the following headers:
   - **Content-Security-Policy (CSP)**: Checks if the Content-Security-Policy header is present.
@@ -14,8 +14,8 @@
   - **CORS Protection**: Checks for the Access-Control-Allow-Origin header and whether it's set to restrict origins.
   - **Host Header Validation**: Provides a manual check for host header validation.
 
-## Project Structure OF SMS
-SEC-MY_SITE/
+## Project Structure
+SecMySite/
 ├── static/
 │   └── style.css # Styling for the website
 ├── templates/
@@ -25,9 +25,8 @@ SEC-MY_SITE/
 ## Setup and Installation
 
 ### Clone the repository:
-`git clone https://github.com/yourusername/SEC-MY_SITE.git`
-
-`cd SEC-MY_SITE`
+`git clone https://github.com/yourusername/SecMySite.git`
+`cd SecMySite`
 
 ### Install the required dependencies:
 `pip install -r requirements.txt`
