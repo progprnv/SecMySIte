@@ -3,7 +3,7 @@
 ![Screenshot 2024-10-16 at 18-44-54 Online Font Style Generator   Text Effects](https://github.com/user-attachments/assets/be0ba55d-73d3-4c52-b65f-ab2cadfe0c9b)
 
 
-**SEC-MY_SITE** a.k.a SMS is a simple Flask-based web application that allows users to scan a domain for key security headers such as CSP (Content-Security-Policy), CSRF, CORS, and Host header protection.
+**SEC-MY_SITE** a.k.a **SMS** is a simple Flask-based web application that allows users to scan a domain for key security headers such as CSP (Content-Security-Policy), CSRF, CORS, and Host header protection.
 
 ## Features OF SMS
 - Accepts domain input from the user.
