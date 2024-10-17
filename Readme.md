@@ -29,8 +29,8 @@ SecMySite/
 ## Setup and Installation
 
 ### Clone the repository:
-`https://github.com/progprnv/SecMySIte-IEDC_Hackathon_2024`
-`cd SecMySIte-IEDC_Hackathon_2024`
+`https://github.com/progprnv/SecMySIte`
+`cd SecMySIte`
 
 ### Install the required dependencies: (not needed for now)
 `pip install -r requirements.txt`
