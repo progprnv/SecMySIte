@@ -32,7 +32,7 @@ SecMySite/
 `https://github.com/progprnv/SecMySIte-IEDC_Hackathon_2024`
 `cd SecMySIte-IEDC_Hackathon_2024`
 
-### Install the required dependencies:
+### Install the required dependencies: (not needed for now)
 `pip install -r requirements.txt`
 
 ### Run the Flask app:
